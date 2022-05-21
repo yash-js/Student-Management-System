@@ -1,0 +1,85 @@
+.App {
+  min-height: 100vh;
+  background-image: url("https://res.cloudinary.com/ddetbymlt/image/upload/v1622449012/bg_50_guyvpy.jpg") !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-color: #00000061 !important;
+  background-blend-mode: color !important;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.MuiIconButton-root {
+  padding: 0px !important;
+}
+
+/* Firefox */
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.App>h1 {
+  text-align: center;
+}
+
+.wid {
+  width: 98% !important;
+}
+
+.rc-time-picker-input {
+  display: block !important;
+  width: 100% !important;
+  height: calc(1.5em + 0.75rem + 2px) !important;
+  padding: 0.375rem 0.75rem !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  color: #495057 !important;
+  background-color: #fff !important;
+  background-clip: padding-box !important;
+  border: 1px solid #ced4da !important;
+  border-radius: 0.25rem !important;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+}
+
+@media screen and (max-width: 770px) {
+  .resp {
+    flex-direction: column;
+  }
+}
+textarea {
+resize: none !important;
+  height: 150px !important;
+}
+
+/* @media screen and (max-width: 1628px) {
+  .table-responsive{
+  display: inline-table !important;
+}
+}
+@media screen and (min-width: 768px) {
+  .table-responsive{
+  display: inline-table !important;
+}
+}*/
+
+/* 
+@media screen and (min-width: 1024px) {
+
+  .table-responsive {
+    display: table !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+  }
+} */
+
+.sd {
+  display: flex !important;
+  flex-basis: auto;
+  justify-content: flex-end;
+}
